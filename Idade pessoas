@@ -1,4 +1,10 @@
- int qtde = 0;
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+      int qtde = 0;
  int idade = 0;
  Console.WriteLine("Exercício 2 - Verifica maior idade");
  int i = 0;
@@ -14,3 +20,5 @@
  }
  Console.WriteLine("Existem " + qtde + " pessoas com mais de 18 anos");
  Console.ReadKey();
+    }
+}
